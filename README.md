@@ -69,6 +69,21 @@
          'Total stock volume
             totalVolume = totalVolume + ws.Cells(i, 7).Value
         Next i
+                Next i
+        End If
+        
+        ' **Greatest increase**
+                If percentChange > greatestIncrease Then
+                    greatestIncrease = percentChange
+                    greatestIncreaseTicker = ticker
+                End If
+                
+               ** ' Greatest decrease**
+                If percentChange < greatestDecrease Thens
+                    greatestDecrease = percentChange
+                    greatestDecreaseTicker = ticker
+End Sub
+
 End Sub
 
       
