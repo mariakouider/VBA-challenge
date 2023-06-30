@@ -82,5 +82,3 @@ Sub StockAnalysis()
             End If
             
 End Sub
-
-
